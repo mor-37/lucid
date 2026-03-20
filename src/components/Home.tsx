@@ -111,6 +111,7 @@ export default function Home() {
                 <span className="text-2xl">🏃‍♀️</span> 활동
               </h4>
               <ul className="list-disc list-inside ml-8 text-lg md:text-xl space-y-3 font-medium">
+                <li>보고싶은 영화를 모여서 감상합니다~ 🍿</li>
                 <li>영화는 연 1~2회 제작! 🎬</li>
                 <li>학기말이나 축제 때 동아리의 자작영화 감상회 개최 ✨</li>
               </ul>
