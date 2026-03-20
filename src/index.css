@@ -1,0 +1,48 @@
+@import "tailwindcss";
+
+@theme {
+  --font-serif: "Hahmlet", serif;
+  --font-sans: "Pretendard", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+}
+
+body {
+  background-color: #fff0f5; /* Lavender blush / Soft pink */
+  color: #4a4a4a;
+  font-family: var(--font-sans);
+  overflow-x: hidden;
+}
+
+.glass-panel {
+  background: rgba(255, 255, 255, 0.7);
+  backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.9);
+  box-shadow: 0 8px 32px rgba(255, 182, 193, 0.2);
+}
+
+@keyframes fall {
+  0% { 
+    transform: translateY(-10vh) translateX(0) rotate(0deg); 
+    opacity: 0; 
+  }
+  10% { 
+    opacity: 0.8; 
+  }
+  90% { 
+    opacity: 0.8; 
+  }
+  100% { 
+    transform: translateY(110vh) translateX(20vw) rotate(360deg); 
+    opacity: 0; 
+  }
+}
+
+.petal {
+  position: absolute;
+  background: #ffb7c5;
+  border-radius: 15px 0 15px 0;
+  pointer-events: none;
+  animation: fall linear infinite;
+  z-index: 0;
+  box-shadow: 0 0 10px rgba(255, 182, 193, 0.5);
+}
