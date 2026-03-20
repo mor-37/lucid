@@ -112,7 +112,7 @@ const characters: Character[] = [
     gender: "男",
     age: 21,
     dept: "전자공학과 3학년",
-    mbti: "INP",
+    mbti: "INFP",
     image: "https://dcm.ajrd.org/X/2.webp",
     color: "from-indigo-500/20 to-violet-500/5",
     description: "엉뚱한(?) 상상을 많이하는 너드남. 정하연의 연인이자 소꿉친구",
