@@ -32,7 +32,8 @@ export default function Home() {
         
         <h2 className="text-2xl md:text-4xl font-serif text-pink-600 mb-8 flex items-center justify-center gap-3">
           <Sparkles className="w-6 h-6 text-pink-300" />
-          2026년 대한민국, 다온대학교
+          2026년 대한민국<br/>
+          다온대학교
           <Sparkles className="w-6 h-6 text-pink-300" />
         </h2>
         
@@ -49,9 +50,9 @@ export default function Home() {
 
         <div className="inline-block bg-pink-50 border border-pink-200 rounded-full px-8 py-4 shadow-sm">
           <p className="text-pink-500 font-serif text-xl md:text-2xl flex items-center gap-2">
-            <Heart className="w-5 h-5 fill-pink-400 text-pink-400" />
+            <Heart className="w-3 h-5 fill-pink-400 text-pink-400" />
             "루시드 드림을 이용해서 당신의 이야기를 만들어나가세요."
-            <Heart className="w-5 h-5 fill-pink-400 text-pink-400" />
+            <Heart className="w-3 h-5 fill-pink-400 text-pink-400" />
           </p>
         </div>
       </motion.div>

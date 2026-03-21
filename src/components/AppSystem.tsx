@@ -3,11 +3,11 @@ import { CheckCircle2, AlertCircle } from 'lucide-react';
 
 export default function AppSystem() {
   const levels = [
-    { lv: 1, desc: "꿈에 직접 진입 가능" },
+    { lv: 1, desc: "꿈에 진입하거나 관찰, 선택적 현현 가능합니다" },
     { lv: 2, desc: "소규모 환경 조작 (소품, 분위기, 외모변경 등)" },
-    { lv: 3, desc: "기억 각인" },
+    { lv: 3, desc: "강제 기억 각인" },
     { lv: 4, desc: "중규모 환경 조작 (장소, 날씨, 가상인물 생성 등)" },
-    { lv: 5, desc: "타인의 꿈에 동시 진입 (2인 이상 같은 꿈에)" },
+    { lv: 5, desc: "타인의 꿈에 제3자를 데려올 수 있습니다" },
     { lv: 6, desc: "모든 환경 조작" },
   ];
 
@@ -60,7 +60,7 @@ export default function AppSystem() {
             <ul className="space-y-4 text-slate-600 ml-2">
               <li className="flex items-start gap-3">
                 <span className="w-1.5 h-1.5 rounded-full bg-pink-300 mt-2 shrink-0" />
-                <span>한 번에 1명 꿈만 진입 (단, LV.6 해금 시 복수 진입할 수 있습니다.)</span>
+                <span>한 번에 1명 꿈만 진입 (단, LV.5 해금 시 복수 진입할 수 있습니다.)</span>
               </li>
               <li className="flex items-start gap-3">
                 <span className="w-1.5 h-1.5 rounded-full bg-pink-300 mt-2 shrink-0" />
